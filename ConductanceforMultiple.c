@@ -70,7 +70,7 @@ int main()
         int num=0,counter=1;
         char b,c[1000];
        long long degree=0; 
-        
+        int present=0;
         while(1)
         {
             long b_in,c_in;
@@ -80,7 +80,7 @@ int main()
             int day = window/24;
             int time   = window%24;
             c_in = c_in-pivot;
-	int present=0;
+	
 	for(present=0;present<counter;present++)
 	{
 		if(strcmp(d,name[present])==0)
